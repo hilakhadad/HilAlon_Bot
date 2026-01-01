@@ -2,8 +2,6 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-print("DOTENV loaded. BOT_TOKEN exists?", bool(os.getenv("BOT_TOKEN")))
-print("BOT_TOKEN length:", len(os.getenv("BOT_TOKEN") or ""))
 
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup

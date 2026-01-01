@@ -32,7 +32,8 @@ def get_calendar_service():
 
             flow = InstalledAppFlow.from_client_secrets_file(
                 cfg.CALENDAR_CREDENTIALS_FILE, SCOPES)
-            creds = flow.run_console()
+            creds = flow.run_local_server(port=0, open_browser=False)
+
 
         # Save token for next time
         with open('token.json', 'w') as token:
