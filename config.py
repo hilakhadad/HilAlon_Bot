@@ -62,7 +62,7 @@ BABYSITTER_REMINDER_DAYS_BEFORE = 3
 
 # --- 4. KIMEL COUNTER SETTINGS ---
 KIMEL_COUNTER_KEY = "kimel_count"
-KIMEL_INITIAL_COUNT = 6  # Initial counter value
+KIMEL_INITIAL_COUNT = 9  # Initial counter value
 KIMEL_MAX_COUNT = 10  # Maximum count before reset
 KIMEL_RESET_COUNT = 1  # Value to reset to after reaching max
 
